@@ -5,6 +5,13 @@ export const metadata: Metadata = {
     description: 'Redirecting you to the partner portal to begin the setup for your new institutional LMS SaaS account.',
 };
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Sign Up | Institutional Account Creation',
+    description: 'Redirecting you to the partner portal to begin the setup for your new institutional LMS SaaS account.',
+};
+
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
